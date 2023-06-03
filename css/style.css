@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.logo{
+ margin-left: 10px;
+ margin-top: 10px;
+
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    margin-right: 10px;
+    
+   
+}
+.nav-list > li{
+    list-style: none;
+}
+
+
+.nav-list > li > a{
+    margin-left: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav-list > li > a:hover{
+  color: red;
+}
+
+.hero-section{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap:20px;
+ background-color: rgb(68, 68, 208);
+ color: white;
+ margin: 5px;
+ 
+}
+
+.left_side_bio_part{
+    border: 1px solid white;
+    padding: 10px;
+    width: 600px;
+    text-align: justify;
+    
+}
+
+.right_side_bio_part{
+    margin: 10px;
+    padding: 10px;
+    margin-right: 50%;
+    text-align: center;
+}
+.social_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#email,#mob,#facebook,#tweeter,#linkedin,#github{
+    margin-top: 5px;
+}
+.service_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(68, 68, 208);
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+}
+#serviceid{
+    margin-bottom: 5px;
+}
+.card >ul> li{
+    margin-bottom: 5px;
+     margin-left: 40px;
+}
+
+.anothersection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 20px;
+}
+.leftanothersection{
+    width: 600px;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+.rightanothersection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 400px;
+    }
+
